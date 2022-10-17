@@ -56,9 +56,9 @@ const handleSubmit= (event: FormEvent<HTMLFormElement>)=> {
             <TextField margin="normal" required fullWidth id="email" label="Digite o email" name="email" autoComplete="email" autoFocus/>
             <TextField margin="normal" required fullWidth id="password" label="Digite a senha" name="password" autoComplete="password" autoFocus/>
             <TextField margin="normal" required fullWidth id="passwordConf" label="Confirme a senha" name="passwordConf" autoComplete="passwordConf" autoFocus/>
-              <FormControlLabel control={<Checkbox value="Remember" color="primary" />} label= "Lembrar de mim"/>
-              <Button type='submit' fullWidth variant="contained" sx={{mt:3, mb:2}}>Cadastar</Button>
-              {error && <Typography color="error">{errorMenssage}</Typography>}
+            <FormControlLabel control={<Checkbox value="Remember" color="primary" />} label= "Lembrar de mim"/>
+            <Button type='submit' fullWidth variant="contained" sx={{mt:3, mb:2}}>Cadastar</Button>
+            {error && <Typography color="error">{errorMenssage}</Typography>}
           </Box> 
         </Box>
         <Copyright site='www.avanade.com.br' sx= {{mt:8, mb:4}} />

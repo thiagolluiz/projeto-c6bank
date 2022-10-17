@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "git": "git add --all && git commit -m\"Deploy\" && git push -u origin main && echo \"Deployed\" && npm run dev"
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",
