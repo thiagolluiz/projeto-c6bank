@@ -1,5 +1,6 @@
 import styled from '@emotion/styled'
 import React from 'react'
+import ExtractContent from '../components/ExtractContent'
 import SideBar from '../components/SideBar'
 
 const ExtractContainer = styled.div`
@@ -12,10 +13,7 @@ export default function ExtractPage() {
   return (
     <ExtractContainer>
       <SideBar/>
-      <section>
-        <h1>Extrato</h1>
-        Aqui vira a lista de extrato
-      </section>
+        <ExtractContent/>
     </ExtractContainer>
   )
 }

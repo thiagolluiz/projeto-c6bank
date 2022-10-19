@@ -7,7 +7,7 @@ import Menu from '../Menu';
 const SideBarContainer = styled.section`
   display: flex;
   flex-direction: column;
-  width: 360px;
+  width: 300px;
   background-color: #242424;
   `;
 

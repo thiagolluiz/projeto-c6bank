@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import styled from '@emotion/styled'
-import Link from 'next/link';
 
 const BalanceContainer = styled.div`
   margin-bottom: 5%;
@@ -17,7 +16,7 @@ const BalanceContainer = styled.div`
   `;
 
 export default function Balance() {
-  const[show, setShow] = useState<boolean>(true);
+  const[show, setShow] = useState<boolean>(false);
   return (
     <BalanceContainer>
       <div>Saldo</div>
