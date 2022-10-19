@@ -21,7 +21,7 @@ const Home: NextPage = () => {
         <div className={styles.description}>
           <ul>
             <li><Link rel="" href="/login" >Login</Link></li>
-            <li><Link rel="" href="/register" >Crie sua conta</Link></li>
+            <li><Link rel="" href="/register" >Criar Conta</Link></li>
             <li><Link rel="" href="/extract" >Extrato</Link></li>
           </ul>
         </div>

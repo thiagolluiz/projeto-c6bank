@@ -10,13 +10,20 @@ const ProfileContainer = styled.div`
   font-family: sans-serif;
   background-color: #242424;
   width: 100%;
-  height: 450px;
+  height: 320px;
   `;
 const AvatarCointainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
+  h2,h3{
+    margin: 0;
+    font-weight: 500;
+  }
+  h2{
+    margin-top: 10%;
+  }
   `;
 
 export default function Profile() {

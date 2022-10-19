@@ -6,8 +6,21 @@ const MenuContainer = styled.nav`
   display: flex;
   flex-direction: column;
   ul{
+    width: 100%;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    overflow-y: auto;
+    &::-webkit-scrollbar-thumb{
+      border-radius: 5px;
+      background-color: #242424;
+      outline: 1px solid #777777;
+    }
+    &::-webkit-scrollbar{
+      width: 6px;
+    }
     li{
       list-style: none;
       display: flex;
@@ -34,10 +47,10 @@ export default function Menu() {
         <li><Link href=" " > Pagamento</Link></li>
         <li><Link href=" " > Cartoes</Link></li>
         <li><Link href=" " > Credito</Link></li>
-      </ul>
-    {/*  <footer>
+        <footer>
         <button>Sair da conta</button>
-      </footer> */}
+        </footer>
+      </ul>
     </MenuContainer>
   )
 }
